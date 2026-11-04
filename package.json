@@ -1,0 +1,29 @@
+{
+  "name": "sabhavat-kiran-teja-bdf-lab-3",
+  "version": "1.0.0",
+  "description": "Backend Development Fundamentals (BDF) Lab 3 - RESTful API with search, sorting, validation, and debugging",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "node test-runner.js",
+    "debug-demo": "node debugging-exercise/buggy-server.js"
+  },
+  "keywords": [
+    "express",
+    "sqlite",
+    "rest-api",
+    "validation",
+    "query-parameters",
+    "debugging"
+  ],
+  "author": "Sabhavat Kiran Teja (252U1R8083)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
