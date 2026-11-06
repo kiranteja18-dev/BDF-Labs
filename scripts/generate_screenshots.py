@@ -126,7 +126,7 @@ def render_api_card(filename, method, url, status_code, status_text, req_body, r
 
     # Bottom Footer
     draw.rectangle([0, height - 40, width, height], fill=HEADER_BG)
-    draw.text((20, height - 28), "Verified Endpoint Execution  |  Faculty: Sai Shiva Teja", font=f_small, fill=TEXT_MUTED)
+    draw.text((20, height - 28), "Verified Endpoint Execution  |  Faculty: Joel Prashanth D", font=f_small, fill=TEXT_MUTED)
     draw.text((width - 450, height - 28), "Aurora University - Backend Development Fundamentals", font=f_small, fill=TEXT_CYAN)
 
     img.save(f"screenshots/{filename}", quality=95)
@@ -471,7 +471,7 @@ test_runner_output = [
     "===============================================================",
     "  BDF LAB 3 - AUTOMATED REST API TEST SUITE",
     "  Student: S. Kiran Teja (252U1R8083) | Section: CSE-QE-2B",
-    "  Faculty: Sai Shiva Teja",
+    "  Faculty: Joel Prashanth D",
     "===============================================================",
     "[Database] Initialized and seeded with 8 books.",
     "[PASS] 1. Root Endpoint Check (200 OK)",

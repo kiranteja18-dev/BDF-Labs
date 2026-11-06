@@ -1,7 +1,7 @@
 # Lab 3 Debugging Exercise: Analysis & Resolutions
 
 **Course:** Backend Development Fundamentals (BDF)  
-**Faculty:** Sai Shiva Teja  
+**Faculty:** Joel Prashanth D  
 **Student:** S. Kiran Teja (Registration No: `252U1R8083`)  
 
 During the Lab 3 debugging exercise, students were provided with a broken version of the Node.js Express server containing four deliberate, high-frequency backend bugs. Below is the systematic diagnostic analysis and solution for each error.

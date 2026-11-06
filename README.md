@@ -14,9 +14,9 @@
 | **Class & Section** | **CSE-QE-2B** (Section **S-13**, Class 204) |
 | **Study Level / Year & Term** | Undergraduate (B.Tech CSE) · **Year II Term II** |
 | **Subject** | **Backend Development Fundamentals (BDF)** |
-| **Faculty In-Charge** | **Sai Shiva Teja** |
+| **Faculty In-Charge** | **Joel Prashanth D** |
 | **Institution** | **Aurora Higher Education and Research Academy** |
-| **Repository Name** | `BDF-Labs` ([kiranteja18-dev/BDF-Labs](https://github.com/kiranteja18-dev/BDF-Labs.git)) |
+| **Repository Name** | `sabhavat-kiran-teja` ([kiranteja18-dev/sabhavat-kiran-teja](https://github.com/kiranteja18-dev/sabhavat-kiran-teja)) |
 
 ---
 
@@ -112,8 +112,8 @@ BDF-Labs/
 
 ### Step 1: Clone or Navigate to the Repository
 ```bash
-git clone https://github.com/kiranteja18-dev/BDF-Labs.git
-cd BDF-Labs
+git clone https://github.com/kiranteja18-dev/sabhavat-kiran-teja.git
+cd sabhavat-kiran-teja
 ```
 
 ### Step 2: Install Dependencies
@@ -279,7 +279,7 @@ node test-runner.js
 ===============================================================
   BDF LAB 3 - AUTOMATED REST API TEST SUITE
   Student: S. Kiran Teja (252U1R8083) | Section: CSE-QE-2B
-  Faculty: Sai Shiva Teja
+  Faculty: Joel Prashanth D
 ===============================================================
 
 [Database] Initialized and seeded with 8 books.
@@ -473,7 +473,7 @@ The faculty handout introduced four deliberate runtime bugs. The table below det
    git add .
    git commit -m "Complete BDF Lab 3 REST API implementation"
    git branch -M main
-   git remote add origin https://github.com/kiranteja18-dev/BDF-Labs.git
+   git remote add origin https://github.com/kiranteja18-dev/sabhavat-kiran-teja.git
    git push -u origin main
    ```
 2. Log into [Render](https://render.com).

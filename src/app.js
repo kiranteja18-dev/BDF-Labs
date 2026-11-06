@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
       name: 'S. Kiran Teja',
       registrationNumber: '252U1R8083',
       section: 'CSE-QE-2B (S-13)',
-      faculty: 'Sai Shiva Teja',
+      faculty: 'Joel Prashanth D',
     },
     status: 'Running',
     endpoints: {

@@ -16,7 +16,7 @@ async function runTests() {
   console.log('===============================================================');
   console.log('  BDF LAB 3 - AUTOMATED REST API TEST SUITE');
   console.log('  Student: S. Kiran Teja (252U1R8083) | Section: CSE-QE-2B');
-  console.log('  Faculty: Sai Shiva Teja');
+  console.log('  Faculty: Joel Prashanth D');
   console.log('===============================================================\n');
 
   // Initialize DB and start ephemeral test server
