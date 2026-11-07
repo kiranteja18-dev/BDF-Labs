@@ -14,9 +14,11 @@ async function initializeDatabase() {
     return dbInstance;
   }
 
-  const dbPath = process.env.DB_PATH
-    ? path.resolve(process.env.DB_PATH)
+  const isVercel = Boolean(process.env.VERCEL || process.env.NOW_REGION);
+  const defaultPath = isVercel
+    ? path.join('/tmp', 'database.db')
     : path.resolve(__dirname, '../database.db');
+  const dbPath = process.env.DB_PATH ? path.resolve(process.env.DB_PATH) : defaultPath;
 
   dbInstance = await open({
     filename: dbPath,
